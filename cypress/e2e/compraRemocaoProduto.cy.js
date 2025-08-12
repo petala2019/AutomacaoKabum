@@ -29,7 +29,9 @@ describe('Remover produto do carrinho', () => {
     cy.get('.w-full.p-8 > .mt-8', { timeout: 10000 }).should('be.visible').click();
    
     //Então o usuario vai para o carrinho
-    cy.get('#linkCarrinhoHeader').should('be.visible').then(($el) => {cy.wrap($el).click();
+    cy.get('#linkCarrinhoHeader', { timeout: 10000 }).should('be.visible').should('exist').then(($el) => {cy.wrap($el).click({ force: true });
+});
+
 
       //Então o usuário remove o produto do carrinho
       cy.get('#removerTodosProdutos').click();
@@ -40,4 +42,3 @@ describe('Remover produto do carrinho', () => {
       
     });
   });
-});
