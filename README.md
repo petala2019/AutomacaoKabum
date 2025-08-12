@@ -1,19 +1,24 @@
-# 🧪 Testes Automatizados com Cypress
+# 🛒 Testes de Carrinho de Compras com Cypress
 
-Este repositório contém testes automatizados de front-end usando o [Cypress](https://www.cypress.io/). Os testes foram criados para validar o comportamento e a funcionalidade de aplicações web de forma rápida e confiável.
+Este projeto contém testes automatizados usando [Cypress](https://www.cypress.io/) para simular o fluxo de compra em um e-commerce, incluindo:
 
+- Login do usuário
+- Adição de produto ao carrinho
+- Remoção de produto do carrinho
 
-## ✅ Pré-requisitos
+---
 
-- Node.js 
-- npm 
-- Aplicação rodando localmente ou hospedada para testes (ex: http://localhost:3000)
+## 📦 Pré-requisitos
+
+- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- Gerenciador de pacotes `npm` 
+
+---
 
 ## 🚀 Instalação
 
-```bash
-git clone https://github.com/seu-usuario/cypress-carrinho-compras.git
-cd cypress-carrinho-compras
-npm install
+1. Clone o repositório:
 
+```bash
+git clone git@github.com:petala2019/AutomacaoKabum.git
 

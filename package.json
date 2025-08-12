@@ -1,0 +1,27 @@
+{
+  "name": "automacaokabum",
+  "version": "1.0.0",
+  "description": "Este repositório contém testes automatizados de front-end usando o [Cypress](https://www.cypress.io/). Os testes foram criados para validar o comportamento e a funcionalidade de aplicações web de forma rápida e confiável.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petala2019/AutomacaoKabum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petala2019/AutomacaoKabum/issues"
+  },
+  "homepage": "https://github.com/petala2019/AutomacaoKabum#readme",
+  "dependencies": {
+    "cypress": "^14.5.4"
+  },
+  
+  "scripts": {
+    "cy:open": "cypress open"
+  }
+}
